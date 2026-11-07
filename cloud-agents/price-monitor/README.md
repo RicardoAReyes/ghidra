@@ -16,7 +16,7 @@ plans (never real checkouts).
 AskQuestion was unavailable in this environment, so these defaults were applied:
 
 - **Purpose:** domain assistant over tools (commerce ops)
-- **Name / location:** `price-monitor` at `~/price-monitor`
+- **Name / location:** `cloud-agents/price-monitor` in this repository
 - **Model:** `grok-4.7` with `reasoning_effort=high`, `fast=true`
 - **Channels:** playground + HTTP + daily schedule
 - **MCP:** none (swap `bot/lib/catalog.ts` for live APIs)
